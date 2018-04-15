@@ -76,6 +76,10 @@ If you would like to change the underlying storage (i.e. to an in memory hash
 table) or location. You will need to build a type which satisfies the *Storage* 
 interface.
 
+# To Do
+
+- Allow entries in default storage (sqlite3 database) to be purged.
+
 # Documentation
 
 http://godoc.org/github.com/umahmood/hashcash
